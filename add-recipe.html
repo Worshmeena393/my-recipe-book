@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add A Recipe</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="index.html">Home</a> |
+          <a href="add-recipe.html">Add Recipe</a> |
+          <a href="recipe-list.html">Recipe List</a>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Add a New Recipe</h1>
+    
+        <form action="#" method="post">
+          <label for="recipeName">Recipe Name:</label><br>
+          <input type="text" id="recipeName" name="recipeName" required><br><br>
+    
+          <label for="ingredients">Ingredients:</label><br>
+          <textarea id="ingredients" name="ingredients" rows="5" cols="40" required></textarea><br><br>
+    
+          <label for="instructions">Cooking Instructions:</label><br>
+          <textarea id="instructions" name="instructions" rows="5" cols="40" required></textarea><br><br>
+    
+          <label for="imageURL">Image URL:</label><br>
+          <input type="url" id="imageURL" name="imageURL"><br><br>
+    
+          <label for="category">Recipe Category:</label><br>
+      <select id="category" name="category" required>
+        <option value="">--Select Category--</option>
+        <option value="Desserts">Desserts</option>
+        <option value="Appetizers">Appetizers</option>
+        <option value="Quick Meals">Quick Meals</option>
+        <option value="Vegan">Vegan</option>
+        <option value="Drinks">Drinks</option>
+      </select><br><br>
+
+      <input type="submit" value="Add Recipe">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Recipe Book</p>
+  </footer>
+
+        
+
+  
+
+</body>
+</html>
